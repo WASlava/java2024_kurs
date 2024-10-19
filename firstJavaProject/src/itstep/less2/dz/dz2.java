@@ -8,10 +8,10 @@ public class dz2 {
         Scanner myObj = new Scanner(System.in);
         System.out.print("Введіть число:");
 
-        int a = myObj.nextInt();
+        double a = myObj.nextDouble();
 
         System.out.print("Введіть процент: ");
-        int b = myObj.nextInt();
+        double b = myObj.nextDouble();
 
         double c =a*b/100;
         System.out.println(b+"% від " + a +" = " + c);
